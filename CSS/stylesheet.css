@@ -1,2 +1,29 @@
+wrapper{background-color: #dffbee;;}
 
-body {background-color: aquamarine;}
+header {background-color: rgb(179, 232, 198);
+     border: 2px solid;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;}
+nav {background-color: rgb(164, 228, 182);
+margin: 10px;}
+main {background-color: rgb(101, 161, 113);
+color: blue;}
+footer {background-color: rgb(102, 161, 116);}
+
+body {background-color: rgb(252, 251, 252);}
+
+table {
+    border-collapse: collapse;
+    width: 25%;
+    border: 1px solid black;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
